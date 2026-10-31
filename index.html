@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class ="sticky-top mb-4">
-<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg band-background" data-bs-theme="dark">
   <div class="container-fluid" bis_skin_checked="1">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,24 +22,21 @@
     <div class="collapse navbar-collapse" id="navbarColor01" bis_skin_checked="1">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home
+          <a class="nav-link active link-light" href="#">Home
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#gallery">Discography</a>
+          <a class="nav-link link-light" href="#gallery">Discography</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Price</a>
+          <a class="nav-link link-light" href="#">Price</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#calendar">Calendar</a>
+          <a class="nav-link link-light" href="#calendar">Calendar</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <button class="btn btn-outline-light" type="button"><a class = "link-light" href="contact.html">Contact</a></button>
     </div>
   </div>
 </nav>
@@ -48,13 +45,13 @@
     <main>
      <div class = "container">
       <div class = "history mb-5">
-        <h1 class = "mb-4">Our History</h1>
+        <h1 class = "mb-4 band-accent">Our History</h1>
             <img src="./imgs/bb.webp" alt="">
           <div>        
             <p class="flex-col">Formed in London in 1965, Pink Floyd evolved from a psychedelic group led by Syd Barrett into progressive rock giants under Roger Waters and David Gilmour. Their landmark 1970s concept albums—including The Dark Side of the Moon and The Wall—explored themes of isolation, mental illness, and greed. Following Waters' departure in 1985, the remaining members continued touring and recording, briefly reuniting one last time in 2005.</p>
           </div>
       </div>
-      <h1 class = "mb-4" id = "gallery">Discography</h1> 
+      <h1 class = "mb-4 band-accent" id = "gallery">Discography</h1> 
       <div class = "gallery">
         <div class = "row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
           <div class = "col text-center">         
@@ -92,7 +89,7 @@
          </div>
       </div>
 
-      <h1 class = "mb-4" id ="calendar">Calendar</h1>
+      <h1 class = "mb-4 band-accent" id ="calendar">Calendar</h1>
     <div class = "table-responsive mb-5">
       <table class = "table table-bordered">
         <thead>
@@ -247,7 +244,7 @@
       </div>
 
       <div class = "news mb-5">
-        <h1 class = "mb-4">News</h1>
+        <h1 class = "mb-4 band-accent">News</h1>
         <div class ="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"> 
          <div class = "col news-item">
           <h4 class="mb-3">New Album Release: "Echoes of the Past"</h4>
@@ -285,7 +282,7 @@
       </div> 
 
       <div>
-       <h1 class =>Our Preview Video</h1>
+       <h1 class = "mb-4 band-accent">Our Preview Video</h1>
       <div class="ratio ratio-16x9">
       <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"></iframe>
       </div>
@@ -294,7 +291,11 @@
     </div>
     </main>
 
-    <footer>
+    <footer class = "band-background text-center pb-4 pt-4 mt-5">
+      <a class="link-light mx-2" href="https://www.youtube.com/channel/UCY2qt3dw2TQJxvBrDiYGHdQ">Youtube</a>
+      <a class="link-light mx-2" href="https://open.spotify.com/intl-de/artist/0k17h0D3J5VfsdmQ1iZtE9">Spotify</a>
+      <a class="link-light mx-2" href="https://www.instagram.com/pinkfloyd/">Instagram</a>
+
 
     </footer>
      <script src="js/bootstrap.bundle.min.js" ></script>

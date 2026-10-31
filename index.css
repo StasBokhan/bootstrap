@@ -30,3 +30,19 @@
 text-align: center;    
  }
 }
+
+.band-background{
+    background-color: #141414;
+}
+
+.band-accent{
+    color: #9b5de5;
+}
+
+.gallery img:hover{
+    transform: scale(1.5);
+transition: transform 0.3s ease;
+}
+a{
+    text-decoration: none;
+}
