@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="./favicon_io/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
@@ -27,7 +27,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#gallery">Gallery</a>
+          <a class="nav-link" href="#gallery">Discography</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Price</a>
@@ -47,55 +47,53 @@
 
     <main>
      <div class = "container">
-      <div class = "history">
+      <div class = "history mb-5">
         <h1 class = "mb-4">Our History</h1>
             <img src="./imgs/bb.webp" alt="">
           <div>        
             <p class="flex-col">Formed in London in 1965, Pink Floyd evolved from a psychedelic group led by Syd Barrett into progressive rock giants under Roger Waters and David Gilmour. Their landmark 1970s concept albums—including The Dark Side of the Moon and The Wall—explored themes of isolation, mental illness, and greed. Following Waters' departure in 1985, the remaining members continued touring and recording, briefly reuniting one last time in 2005.</p>
           </div>
       </div>
-      <h1 class = "mb-4" id = "gallery">Gallery</h1> 
+      <h1 class = "mb-4" id = "gallery">Discography</h1> 
       <div class = "gallery">
-        <div class = "row">
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/1.webp" alt="">
-            <h4>1967-8 | The Piper at the Gates of Dawn</h4>
+        <div class = "row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/1.webp" alt="">
+            <h4 class = "pt-4">1967-8 | The Piper at the Gates of Dawn</h4>
          </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/2.webp" alt="">
-            <h4>1968-6 | A Saucerful of Secrets</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/2.webp" alt="">
+            <h4 class = "pt-4">1968-6 | A Saucerful of Secrets</h4>
          </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/3.webp" alt="">
-            <h4>1969-1 | Ummagumma</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/3.webp" alt="">
+            <h4 class = "pt-4">1969-1 | Ummagumma</h4>
           </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/4.webp" alt="">
-            <h4>1969-6 | More (OST)</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/4.webp" alt="">
+            <h4 class = "pt-4">1969-6 | More (OST)</h4>
          </div>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/5.webp" alt="">
+            <h4 class = "pt-4">1970-10 | Atom Heart Mother</h4>
          </div>
-          <div class = "row">
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/5.webp" alt="">
-            <h4>1970-10 | Atom Heart Mother</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/6.webp" alt="">
+            <h4 class = "pt-4">1994-3 | The Division Bell</h4>
          </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/6.webp" alt="">
-            <h4>1994-3 | The Division Bell</h4>
-         </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/7.webp" alt="">
-            <h4>1983-3 | The Final Cut</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/7.webp" alt="">
+            <h4 class = "pt-4">1983-3 | The Final Cut</h4>
           </div>
-          <div class = "col-sm gallery-item">         
-            <img src="./imgs/8.webp" alt="">
-            <h4>1973-3 | The Dark Side of the Moon</h4>
+          <div class = "col text-center">         
+            <img class = "img-fluid" src="./imgs/8.webp" alt="">
+            <h4 class = "pt-4">1973-3 | The Dark Side of the Moon</h4>
          </div>
          </div>
       </div>
 
       <h1 class = "mb-4" id ="calendar">Calendar</h1>
-    <div class = "table-responsive mb-4">
+    <div class = "table-responsive mb-5">
       <table class = "table table-bordered">
         <thead>
        <tr>
@@ -114,154 +112,191 @@
 
       <tr>
         <th>January</th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>February</th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>March</th>
-        <th></th>
-        <th></th>
-        </th><th>
+        <td></td>
+        <td></td>
+        </td><td>
           05.03
-        </th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>April</th>
-        <th></th>
-        <th></th>
-        </th><th>
-        </th>
-        <th></th>
-        <th>03.04</th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td></td>
+        </td><td>
+        </td>
+        <td></td>
+        <td>03.04</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>May</th>
-        <th>12.05</th>
-        <th></th>
-        </th><th>
-        </th>
-        <th></th>
-        <th>16.05</th>
-        <th></th>
-        <th></th>
+        <td>12.05</td>
+        <td></td>
+        </td><td>
+        </td>
+        <td></td>
+        <td>16.05</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>  
         <th>June</th>
-        <th></th>
-        <th></th>
-        </th><th>
-        </th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th>19.06</th>
+        <td></td>
+        <td></td>
+        </td><td>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>19.06</td>
       </tr>
       <tr>
         <th>July</th>
-        <th></th>
-        <th>01.07</th>
-        </th><th>
-        </th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td>01.07</td>
+        </td><td>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>August</th>
-        <th></th>
-        <th></th>
-        </th><th>
+        <td></td>
+        <td></td>
+        </td><td>
           05.08
-        </th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>September</th>
-        <th></th>
-        <th>03.09</th>
-        </th><th>
-        </th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td>03.09</td>
+        </td><td>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>October</th>
-        <th></th>
-        <th></th>
-        </th><th>
+        <td></td>
+        <td></td>
+        </td><td>
 
-        </th>
-        <th>10.10</th>
-        <th></th>
-        <th></th>
-        <th></th>
+        </td>
+        <td>10.10</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <th>November</th>
-        <th></th>
-        <th></th>
-        </th><th>
-        </th>
-        <th></th>
-        <th></th>
-        <th>10.11</th>
-        <th></th>
+        <td></td>
+        <td></td>
+        </td><td>
+        </td>
+        <td></td>
+        <td></td>
+        <td>10.11</td>
+        <td></td>
       </tr> 
       <tr>
         <th>December</th>
-        <th></th>
-        <th></th>
-        </th><th>
-        </th>
-        <th>25.12</th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td></td>
+        <td></td>
+        </td><td>
+        </td>
+        <td>25.12</td>
+        <td></td>
+        <td></td>
       </tr>
       </tbody>
      </table>
       </div>
 
-      <div class = "news">
-        <h1>News</h1>
-        <div class = "news-section">
-        
-
+      <div class = "news mb-5">
+        <h1 class = "mb-4">News</h1>
+        <div class ="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"> 
+         <div class = "col news-item">
+          <h4 class="mb-3">New Album Release: "Echoes of the Past"</h4>
+          <p>Pink Floyd has announced the release of their new album, "Echoes of the Past," set to drop on September 15th. Fans can expect a blend of classic sounds and new experimental tracks.</p>
         </div>
+                 <div class = "col news-item ">
+          <h4 class="mb-3">Special Edition of ‘Meddle’ Announced</h4>
+          <p>Pink Floyd are celebrating their classic 1971 album Meddle with a limited orange marble vinyl edition.</p>
+        </div>
+                 <div class = "col news-item">
+          <h4 class="mb-3">Roger Waters Announces New Pink Floyd Show</h4>
+          <p>Roger Waters is helping create Legacy – A Pink Floyd Show, a live production led by his son Harry Waters.</p>
+        </div>
+                 <div class = "col news-item">
+          <h4 class="mb-3" >Syd Barrett Remembered at 80</h4>
+          <p>Fans are celebrating the legacy of Pink Floyd's original frontman Syd Barrett with exhibitions, music and special events.</p>
+        </div>
+         <div class = "col news-item">
+          <h4 class="mb-3">Pink Floyd Announce Commemorative Coin</h4>
+          <p>The Royal Mint has released its first-ever commemorative coin celebrating Pink Floyd and their musical legacy.</p>
+        </div>
+                 <div class = "col news-item">
+          <h4 class="mb-3">David Gilmour Celebrates 20 Years of ‘On An Island’</h4>
+          <p>David Gilmour is preparing a special anniversary vinyl edition of his 2006 solo album.</p>
+        </div>
+                 <div class = "col news-item">
+          <h4 class="mb-3">Roger Waters Announces Special Concert</h4>
+          <p>Roger Waters and guitarist G.E. Smith will reunite for an intimate musical evening on November 22, 2026.</p>
+        </div>
+                 <div class = "col news-item">
+          <h4 class="mb-3">Syd Barrett Celebrated in Special Tribute Events</h4>
+          <p>Fans honoured Pink Floyd's original frontman with an exhibition, tribute album and special concert marking what would have been his 80th birthday.</p>
+        </div>
+                </div>
+      </div> 
+
+      <div>
+       <h1 class =>Our Preview Video</h1>
+      <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"></iframe>
       </div>
+      </div>
+
     </div>
     </main>
 
     <footer>
 
     </footer>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
